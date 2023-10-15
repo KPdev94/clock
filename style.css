@@ -52,7 +52,7 @@ main {
 
 #minutes-hand {
     background-color: chartreuse;
-    height: 140px;
+    height: 130px;
     width: 4px;
     position: absolute;
     left: 168px;
