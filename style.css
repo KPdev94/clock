@@ -1,0 +1,71 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(43, 43, 43);
+    margin: 0;
+    flex: 1 1 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+header h1 {
+    margin-bottom: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#clock {
+    border: 4px black solid;
+    height: 340px;
+    width: 340px;
+    border-radius: 170px;
+    position: relative;
+
+}
+
+#seconds-hand {
+    background-color: red;
+    height: 155px;
+    width: 2px;
+    position: absolute;
+    left: 169px;
+    bottom: 170px;
+    opacity: 50%;
+    transform-origin: 50% 100%;
+}
+
+#minutes-hand {
+    background-color: chartreuse;
+    height: 140px;
+    width: 4px;
+    position: absolute;
+    left: 168px;
+    bottom: 170px;
+    transform-origin: 50% 100%;
+}
+
+#hours-hand {
+    background-color: aquamarine;
+    height: 90px;
+    width: 4px;
+    position: absolute;
+    left: 168px;
+    bottom: 170px;
+    transform-origin: 50% 100%;
+}
